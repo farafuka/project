@@ -36,7 +36,7 @@ app.get('/user/:id', (req, res) => {
 
 
 // 4. .env for PORT
-// 1. Initialize environment variables from .env immediately
+
 require('dotenv').config();
 
 
